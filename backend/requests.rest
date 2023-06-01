@@ -1,15 +1,18 @@
 GET http://localhost:5000
 
 ###
-POST http://localhost:3001/todo/new
-Content-Type: application/json
+GET http://localhost:5000/api/v1
 
-{
-    "text": "Get a JOB!!!"
-}
+# ###
+# POST http://localhost:3001/todo/new
+# Content-Type: application/json
 
-###
-DELETE http://localhost:3001/todo/delete/647741e8987f022c130933f2
+# {
+#     "text": "Get a JOB!!!"
+# }
 
-### 
-PUT http://localhost:3001/todo/complete/647741e8987f022c130933f2
+# ###
+# DELETE http://localhost:3001/todo/delete/647741e8987f022c130933f2
+
+# ### 
+# PUT http://localhost:3001/todo/complete/647741e8987f022c130933f2
