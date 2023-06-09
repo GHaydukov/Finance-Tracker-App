@@ -17,18 +17,3 @@ Content-Type: application/json
 
 ###
 DELETE http://localhost:5000/api/v1/delete-income/647e5abf84c7a14c66fcf9f0
-
-
-# ###
-# POST http://localhost:3001/todo/new
-# Content-Type: application/json
-
-# {
-#     "text": "Get a JOB!!!"
-# }
-
-# ###
-# DELETE http://localhost:3001/todo/delete/647741e8987f022c130933f2
-
-# ### 
-# PUT http://localhost:3001/todo/complete/647741e8987f022c130933f2
